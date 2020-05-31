@@ -1,0 +1,44 @@
+
+
+.disable {
+	opacity: .2;
+}
+
+body {
+	font-family: 'Raleway' ,sans-serif;
+}
+
+.title {
+	text-transform: uppercase;
+}
+
+.container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+
+#reloj {
+	font-size: 2em;
+	font-weight: 700;
+}
+
+.btn {
+	margin: 1em;
+	border-radius: 5px;
+	display: inline-block;
+	padding: 1em 2em;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	box-shadow: 0 0 5px 0 #ddd;
+	cursor: pointer;
+	transition: all 200ms;
+}
+
+.btn:hover {
+	background-color: #ddd;
+	box-shadow: none;
+}
